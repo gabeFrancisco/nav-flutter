@@ -16,11 +16,12 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
           primarySwatch: Colors.orange,
+          focusColor: Colors.blue.shade200,
           canvasColor: Colors.blue.shade50,
           colorScheme: ColorScheme.fromSeed(
               seedColor: Colors.orange,
               primary: Colors.orange,
-              secondary: Colors.orange.shade400),
+              secondary: Colors.orange.shade300),
           fontFamily: "Raleway",
           textTheme: ThemeData.light().textTheme.copyWith(
               titleMedium: const TextStyle(
